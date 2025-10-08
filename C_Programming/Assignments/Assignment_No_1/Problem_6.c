@@ -1,15 +1,15 @@
 //Write a program to check whether a given character is uppercase or lowercase.
 void main()
 {
-	char ch = 'B'; //66
+	char ch = 'b'; //66
 //	char uppercase , lowercase;
 	if(ch>='A' && ch<='Z')
 	{
-		printf("%d\nuppercase");
+		printf("%c\n uppercase",ch);
 	}
 	else
 	{
-		printf("%d\nlowercase");
+		printf("%c\n lowercase",ch);
 	}
 }
 
@@ -28,4 +28,5 @@ void main()
 		ch=ch-32;
 	}
 	printf("%c",ch);
+
 }*/
